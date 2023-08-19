@@ -1,0 +1,15 @@
+{
+  "name": "code_smells",
+  "version": "1.0.0",
+  "description": "Tests designed to be intentionally bad, for training purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run *",
+    "open": "npx cypress open"
+  },
+  "author": "Ivan Karaman",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
