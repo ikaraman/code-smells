@@ -26,3 +26,8 @@ List of common issues on the example of the Javascript + Cypress.io
 ## 3 - Nitpicks
 1. spacing between tests/describes
 1. lack of consistency
+
+## 4 - Something else
+This block is for situations when you:
+1. see something that doesn't match the categories above 
+2. cannot describe it properly but sense that something is not quite right

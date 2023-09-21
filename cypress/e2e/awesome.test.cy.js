@@ -1,14 +1,15 @@
-it('first test', () => {
+it('test', () => {
   cy.visit('https://magento.softwaretestingboard.com/')
 })
 it('Navigate to sale', () => {
   cy.visit('https://magento.softwaretestingboard.com/')
   cy.get('.navigation > ul > li').last().click()
 
+
   cy.url().should('contain', 'magento.softwaretestingboard.com')
 })
 
-it.only('Buy something', () => {
+it('Buy something', () => {
   cy.visit('https://magento.softwaretestingboard.com/')
   cy.get('.action.more.button').click()
   cy.get('.product-image-photo').first().click()
